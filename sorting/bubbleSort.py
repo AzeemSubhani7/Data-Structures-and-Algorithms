@@ -15,6 +15,8 @@ def bubbleSort(arr):
         arr[j + 1] = temp
         flag = 1
       j = j + 1
+    if(flag == 0):
+      break
     i = i + 1
 
 print(myList)
