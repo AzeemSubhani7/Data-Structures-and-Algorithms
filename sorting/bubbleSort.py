@@ -1,10 +1,10 @@
 # 1 - Bubble Sort
-myList = [12, 45, 65, 49, 56, 1]
+myList = [12, 45, 65, 49, 56, 1, 2, 3]
 
 def bubbleSort(arr):
   length = len(arr)
   i = 0
-  while(i < length - 1):
+  while(i < length):
     j = 0
     flag = 0
     while(j < length - 1 - i):
