@@ -3,8 +3,8 @@ myList = [1, 9, 3, 5, 2, 10, 4]
 
 def insertionSort(a):
   length = len(a)
-  i = 0
-  while(i < length - 1):
+  i = 1
+  while(i < length):
     j = i - 1
     temp = a[i]
     while(j >= 0 and a[j] > temp):
